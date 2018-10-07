@@ -99,15 +99,85 @@ form button {
     margin: 10px 0;
     font-size: 18px;
 }
-
-/* #left {  
-    padding: 20px;
-    margin-bottom: 20px;
-    color:white;
-    background: #6666;
+.row1 {
+    position: absolute;
+    margin-top: 0px; 
+    height: 225px;
+    width: 500px;
+}
+.container1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px; 
+    height: 200px; 
+    margin-right:50px;
     float: left;
+}
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px; 
+    height: 200px; 
+    float: right;
+}
+
+.label {
+    position: absolute;
+    bottom: 8px;
+    background: #4aaaa5;
     width: 200px;
-  } */
+    height: 25px;
+}
+
+.row2 {
+    margin-top: 250px; 
+    height: 225px;
+    width: 500px;
+    position: relative;
+}
+
+.container3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px; 
+    height: 200px; 
+    float: left;
+}
+
+.container4 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 200px; 
+    height: 200px; 
+    float: right;
+}
+
+.row3 {
+    position: relative;
+    height: 225px;
+    width: 560px;
+
+    
+}
+.container5 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 200px; 
+    height: 200px; 
+    float: left;
+}
+.container6 {
+    text-align: center;
+    color: white;
+    width: 200px; 
+    height: 200px;
+    position: relative;
+}
 
 .clearfix {
     display: block;
@@ -118,7 +188,7 @@ footer {
     background: #666666;
     border-top: 5px solid #4aaaa5;
     color:white ;
-    padding-top: 20px;
+    padding-top: 50px;
     margin-top: 50px;
     font-size: 10px;
     text-align: center;
